@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Using Fetch</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+    <div class="container">
+        <h1 class="mt-3">Fetch API Project <i class="fas fa-project-diagram    "></i></h1>
+        <hr>
+        <button class="btn btn-primary" id="getPosts">
+            Get Posts
+        </button>
+
+        <form action="">
+            <div class="form-group">
+                <label for="title" class="mt-3">Title:</label>
+                <input type="text" id="title" class="form-control">
+            </div>
+            <div class="form-group">
+                <label for="body">Content:</label>
+                <textarea id="body" class="form-control"></textarea>
+                <input type="submit" class="btn btn-danger mt-3" id="submitPost">
+            </div>
+        </form>
+
+        <div id="posts"></div>
+    </div>
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <script src="app.js"></script>
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+</body>
